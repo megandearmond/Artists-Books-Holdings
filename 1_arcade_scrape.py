@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import json
-
+import thread as tr
 base_url = "http://arcade.nyarc.org/search~S15?/X*&searchscope=15&SORT=D/X*&searchscope=15&SORT=D&SUBKEY=*/"
 
 change_url = ",15486,15486,B/browse"
